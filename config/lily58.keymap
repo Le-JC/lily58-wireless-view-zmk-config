@@ -62,15 +62,14 @@
 
         Symbols {
             bindings = <
-&trans  &trans       &trans         &trans         &trans           &trans                               &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LS(SQT)  &kp RBRC       &kp RBKT       &kp LS(RPAR)     &kp LS(DQT)                          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LS(SQT)  &kp LBRC       &kp LBKT       &kp LS(LPAR)     &kp LS(DQT)                          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans       &kp RA(GRAVE)  &kp RS(GRAVE)  &kp RS(N3)       &trans       &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                    &trans         &kp EXCLAMATION  &trans       &kp QUESTION    &trans  &trans  &trans  &trans
+&trans            &trans       &trans         &trans         &trans           &trans                               &trans  &trans  &trans  &trans  &trans  &trans
+&kp PERCENT       &kp LS(SQT)  &kp RBRC       &kp RBKT       &kp LS(RPAR)     &kp LS(DQT)                          &trans  &trans  &trans  &trans  &trans  &trans
+&kp RS(NUMBER_4)  &kp LS(SQT)  &kp LBRC       &kp LBKT       &kp LS(LPAR)     &kp LS(DQT)                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans            &trans       &kp RA(GRAVE)  &kp RS(GRAVE)  &kp RS(N3)       &trans       &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                              &trans         &kp EXCLAMATION  &trans       &kp QUESTION    &trans  &trans  &trans  &trans
             >;
 
             label = "symbols";
-            sensor-bindings = <&inc_dec_kp 0 0>;
         };
 
         Movement {
