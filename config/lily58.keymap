@@ -6,6 +6,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
 
 / {
     combos {
@@ -43,6 +44,7 @@
         };
 
         Symbols {
+            label = "symbols";
             bindings = <
 &trans            &trans       &trans         &trans         &trans           &trans                               &trans  &trans  &trans  &trans  &trans  &trans
 &kp PERCENT       &kp LS(SQT)  &kp RBRC       &kp RBKT       &kp LS(RPAR)     &kp LS(DQT)                          &trans  &trans  &trans  &trans  &trans  &trans
@@ -51,7 +53,6 @@
                                               &trans         &kp EXCLAMATION  &trans       &kp QUESTION    &trans  &trans  &trans  &trans
             >;
 
-            label = "symbols";
         };
 
         Movement {
@@ -66,6 +67,7 @@
         };
 
         Mouse {
+            label = "mouse";
             bindings = <
 &trans  &trans            &trans            &trans          &trans           &trans                               &trans    &trans    &trans    &trans    &trans    &trans
 &trans  &trans            &mwh SCROLL_DOWN  &mmv MOVE_UP    &mwh SCROLL_UP   &trans                               &trans    &trans    &trans    &trans    &trans    &trans
@@ -73,11 +75,10 @@
 &trans  &trans            &trans            &trans          &trans           &trans             &trans    &trans  &trans    &trans    &trans    &trans    &trans    &trans
                                             &trans          &trans           &trans             &trans    &trans  &trans    &trans    &trans
             >;
-
-            label = "mouse";
         };
 
         Other {
+            label = "other";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans          &trans            &trans         &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans          &trans            &trans         &trans  &kp KP_NUMLOCK
@@ -85,8 +86,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp C_VOL_DN    &kp K_MUTE        &kp C_VOL_UP   &trans  &trans
                         &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans
             >;
-
-            label = "other";
         };
     };
 };
