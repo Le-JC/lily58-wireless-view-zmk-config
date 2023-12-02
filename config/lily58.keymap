@@ -18,12 +18,6 @@
     combos {
         compatible = "zmk,combos";
 
-        to_layer_3 {
-            bindings = <&mo 2>;
-            key-positions = <52 55>;
-            layers = <0 2 3>;
-        };
-
         escape_dual_keypress {
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
@@ -52,7 +46,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                    &kp LS(RPAR)  &kp N7      &kp N8     &kp N9        &kp MINUS  &kp RA(RBKT)
 &trans  &trans  &trans  &trans  &trans  &trans                    &kp LS(LPAR)  &kp N4      &kp N5     &kp N6        &kp PLUS   &kp RA(LBKT)
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans        &kp N1      &kp N2     &kp NUMBER_3  &kp EQUAL  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans        &kp N0      &trans
+                        &trans  &trans  &trans  &trans    &trans  &mo 3         &kp N0      &trans
             >;
         };
 
@@ -63,7 +57,7 @@
 &kp PERCENT       &kp LS(SQT)  &kp RBRC       &kp RBKT       &kp LS(RPAR)     &kp LS(DQT)                             &trans  &trans  &trans  &trans  &trans  &trans
 &kp RS(NUMBER_4)  &kp LS(SQT)  &kp LBRC       &kp LBKT       &kp LS(LPAR)     &kp LS(DQT)                             &trans  &trans  &trans  &trans  &trans  &trans
 &trans            &trans       &kp RA(GRAVE)  &kp RS(GRAVE)  &kp RS(N3)       &kp UNDERSCORE  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                              &trans         &kp EXCLAMATION  &trans          &kp QUESTION    &trans  &trans  &trans  &trans
+                                              &trans         &kp EXCLAMATION  &mo 3           &kp QUESTION    &trans  &trans  &trans  &trans
             >;
         };
 
