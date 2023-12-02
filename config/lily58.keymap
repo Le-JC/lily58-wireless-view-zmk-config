@@ -31,10 +31,6 @@
         };
     };
 
-    behaviors {
-        jc_hold-tap:
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
