@@ -23,6 +23,11 @@
             key-positions = <0 1>;
             layers = <0>;
         };
+
+        combo_print_screen {
+            bindings = <&kp PRINTSCREEN>;
+            key-positions = <11 10>;
+        };
     };
 
     macros {
