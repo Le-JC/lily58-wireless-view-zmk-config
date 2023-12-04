@@ -47,11 +47,11 @@
         default_layer {
             label = "Base";
             bindings = <
-&kp GRAVE      &kp N1          &kp N2          &kp N3       &kp N4            &kp N5                            &kp N6  &kp N7             &kp N8       &kp N9           &kp N0                   &key_repeat
-&kp TAB        &kp Q           &kp W           &kp E        &kp R             &kp T                             &kp Y   &kp U              &kp I        &kp O            &kp P                    &mt RIGHT_BRACKET LEFT_BRACKET
-&kp BACKSLASH  &mt LEFT_ALT A  &mt LEFT_GUI S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G                             &kp H   &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RIGHT_GUI L  &mt RIGHT_ALT SEMICOLON  &kp SQT
-&kp LSHFT      &kp Z           &kp X           &kp C        &kp V             &kp B   &caps_word    &kp ESCAPE  &kp N   &kp M              &kp COMMA    &kp DOT          &kp FSLH                 &kp RSHFT
-                                               &mo 4        &kp BACKSPACE     &mo 1   &kp ENTER     &kp SPACE   &mo 2   &kp DELETE         &mo 5
+&kp GRAVE      &kp N1          &kp N2          &kp N3       &kp N4            &kp N5                             &kp N6  &kp N7             &kp N8       &kp N9           &kp N0                   &kp RIGHT_BRACKET
+&kp TAB        &kp Q           &kp W           &kp E        &kp R             &kp T                              &kp Y   &kp U              &kp I        &kp O            &kp P                    &kp LEFT_BRACKET
+&kp BACKSLASH  &mt LEFT_ALT A  &mt LEFT_GUI S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G                              &kp H   &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RIGHT_GUI L  &mt RIGHT_ALT SEMICOLON  &kp SQT
+&kp LSHFT      &kp Z           &kp X           &kp C        &kp V             &kp B   &caps_word    &key_repeat  &kp N   &kp M              &kp COMMA    &kp DOT          &kp FSLH                 &kp RSHFT
+                                               &mo 4        &kp BACKSPACE     &mo 1   &kp SPACE     &kp ENTER    &mo 2   &kp DELETE         &mo 5
             >;
         };
 
@@ -69,11 +69,11 @@
         Symbols {
             label = "symbols";
             bindings = <
-&trans            &trans             &trans                    &trans         &trans           &trans                                      &trans  &trans  &trans  &trans  &trans  &trans
-&kp PERCENT       &kp LS(SQT)        &kp RA(NON_US_BACKSLASH)  &kp RA(RBKT)   &kp LS(RPAR)     &kp LS(DQT)                                 &trans  &trans  &trans  &trans  &trans  &trans
-&kp RS(NUMBER_4)  &kp LS(SQT)        &kp RA(SINGLE_QUOTE)      &kp RA(LBKT)   &kp LS(LPAR)     &kp LS(DQT)                                 &trans  &trans  &trans  &trans  &trans  &trans
-&trans            &kp RA(SEMICOLON)  &kp RA(GRAVE)             &kp RS(GRAVE)  &kp RS(N3)       &kp UNDERSCORE  &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                                               &trans         &kp EXCLAMATION  &mo 3           &kp LS(NUMBER_6)    &trans  &trans  &trans  &trans
+&trans            &trans         &trans                    &trans         &trans           &trans                                         &trans  &trans  &trans  &trans  &trans  &trans
+&kp PERCENT       &kp LS(SLASH)  &kp RA(NON_US_BACKSLASH)  &kp RA(RBKT)   &kp LS(RPAR)     &kp RA(SEMICOLON)                              &trans  &trans  &trans  &trans  &trans  &trans
+&kp RS(NUMBER_4)  &kp SLASH      &kp RA(SINGLE_QUOTE)      &kp RA(LBKT)   &kp LS(LPAR)     &kp MINUS                                      &trans  &trans  &trans  &trans  &trans  &trans
+&trans            &kp RA(GRAVE)  &kp RA(GRAVE)             &kp RS(GRAVE)  &kp RS(N3)       &kp UNDERSCORE     &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                                           &trans         &kp EXCLAMATION  &mo 3              &kp LS(NUMBER_6)    &trans  &trans  &trans  &trans
             >;
         };
 
