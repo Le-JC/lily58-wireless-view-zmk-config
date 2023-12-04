@@ -69,11 +69,11 @@
         Symbols {
             label = "symbols";
             bindings = <
-&trans            &trans       &trans                    &trans         &trans           &trans                                      &trans  &trans  &trans  &trans  &trans  &trans
-&kp PERCENT       &kp LS(SQT)  &kp RA(NON_US_BACKSLASH)  &kp RA(RBKT)   &kp LS(RPAR)     &kp LS(DQT)                                 &trans  &trans  &trans  &trans  &trans  &trans
-&kp RS(NUMBER_4)  &kp LS(SQT)  &kp RA(SINGLE_QUOTE)      &kp RA(LBKT)   &kp LS(LPAR)     &kp LS(DQT)                                 &trans  &trans  &trans  &trans  &trans  &trans
-&trans            &trans       &kp RA(GRAVE)             &kp RS(GRAVE)  &kp RS(N3)       &kp UNDERSCORE  &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                                         &trans         &kp EXCLAMATION  &mo 3           &kp LS(NUMBER_6)    &trans  &trans  &trans  &trans
+&trans            &trans             &trans                    &trans         &trans           &trans                                      &trans  &trans  &trans  &trans  &trans  &trans
+&kp PERCENT       &kp LS(SQT)        &kp RA(NON_US_BACKSLASH)  &kp RA(RBKT)   &kp LS(RPAR)     &kp LS(DQT)                                 &trans  &trans  &trans  &trans  &trans  &trans
+&kp RS(NUMBER_4)  &kp LS(SQT)        &kp RA(SINGLE_QUOTE)      &kp RA(LBKT)   &kp LS(LPAR)     &kp LS(DQT)                                 &trans  &trans  &trans  &trans  &trans  &trans
+&trans            &kp RA(SEMICOLON)  &kp RA(GRAVE)             &kp RS(GRAVE)  &kp RS(N3)       &kp UNDERSCORE  &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                                               &trans         &kp EXCLAMATION  &mo 3           &kp LS(NUMBER_6)    &trans  &trans  &trans  &trans
             >;
         };
 
