@@ -74,11 +74,11 @@
         Symbols {
             label = "symbols";
             bindings = <
-&trans            &trans         &trans                    &trans         &trans           &trans                                         &trans  &trans  &trans  &trans  &trans  &trans
-&kp PERCENT       &kp LS(SLASH)  &kp RA(NON_US_BACKSLASH)  &kp RA(RBKT)   &kp LS(RPAR)     &kp RA(SEMICOLON)                              &trans  &trans  &trans  &trans  &trans  &trans
-&kp RS(NUMBER_4)  &kp SLASH      &kp RA(SINGLE_QUOTE)      &kp RA(LBKT)   &kp LS(LPAR)     &kp MINUS                                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans            &kp RA(GRAVE)  &kp RA(GRAVE)             &kp RS(GRAVE)  &kp RS(N3)       &kp UNDERSCORE     &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                                           &trans         &kp EXCLAMATION  &mo 3              &kp LS(NUMBER_6)    &trans  &trans  &trans  &trans
+&trans            &trans             &trans                    &trans         &trans           &trans                                         &trans  &trans  &trans  &trans  &trans  &trans
+&kp PERCENT       &kp LS(BACKSLASH)  &kp RA(NON_US_BACKSLASH)  &kp RA(RBKT)   &kp LS(RPAR)     &kp RA(SEMICOLON)                              &trans  &trans  &trans  &trans  &trans  &trans
+&kp RS(NUMBER_4)  &kp BACKSLASH      &kp RA(SINGLE_QUOTE)      &kp RA(LBKT)   &kp LS(LPAR)     &kp MINUS                                      &trans  &trans  &trans  &trans  &trans  &trans
+&trans            &kp RA(NUMBER_2)   &kp RA(GRAVE)             &kp RS(GRAVE)  &kp RS(N3)       &kp UNDERSCORE     &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                                               &trans         &kp EXCLAMATION  &mo 3              &kp LS(NUMBER_6)    &trans  &trans  &trans  &trans
             >;
         };
 
