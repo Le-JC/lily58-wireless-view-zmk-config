@@ -39,6 +39,8 @@
             #binding-cells = <0>;
             bindings = <&kp SCROLLLOCK &kp SCROLLLOCK &kp NUMBER_1>;
             label = "KVM_MAIN_COMPUTER";
+            wait-ms = <200>;
+            tap-ms = <50>;
         };
 
         kvm_second_computer: kvm_second_computer {
@@ -46,6 +48,8 @@
             #binding-cells = <0>;
             bindings = <&kp SCROLLLOCK &kp SCROLLLOCK &kp NUMBER_2>;
             label = "KVM_SECOND_COMPUTER";
+            wait-ms = <200>;
+            tap-ms = <50>;
         };
     };
 
