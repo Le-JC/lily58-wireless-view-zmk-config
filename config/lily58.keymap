@@ -31,6 +31,12 @@
             require-prior-idle-ms = <75>;
             layers = <0>;
         };
+
+        movement_layer {
+            bindings = <&mo 3>;
+            key-positions = <52 55>;
+            layers = <0>;
+        };
     };
 
     macros {
