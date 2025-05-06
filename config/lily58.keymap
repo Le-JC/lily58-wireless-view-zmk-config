@@ -36,6 +36,7 @@
             bindings = <&mo 3>;
             key-positions = <52 55>;
             layers = <0>;
+            require-prior-idle-ms = <75>;
         };
     };
 
