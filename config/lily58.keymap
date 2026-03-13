@@ -23,7 +23,7 @@
         escape_dual_keypress {
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
-            layers = <0>;
+            layers = <0 7 2 6>;
             require-prior-idle-ms = <75>;
         };
 
@@ -197,14 +197,20 @@
 &kp TAB    &kp Q   &kp W   &kp E   &kp R     &kp T                           &trans  &trans  &trans  &trans  &trans  &trans
 &kp CAPS   &kp A   &kp S   &kp D   &kp F     &kp G                           &trans  &trans  &trans  &trans  &trans  &trans
 &kp LSHFT  &kp Z   &kp X   &kp C   &kp V     &kp B      &kp H        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                           &trans  &kp LALT  &kp LCTRL  &kp SPACE    &trans  &trans  &trans  &to 0
+                           &mo 8   &kp LALT  &kp LCTRL  &kp SPACE    &trans  &trans  &trans  &to 0
             >;
         };
 
-        extra_1 { status = "reserved"; };
+        POE+ {
+            bindings = <
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+            >;
 
-        extra_2 { status = "reserved"; };
-
-        extra_3 { status = "reserved"; };
+            label = "POE+";
+        };
     };
 };
