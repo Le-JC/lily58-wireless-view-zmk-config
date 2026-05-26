@@ -74,6 +74,13 @@
             bindings = <&mkp LCLK>;
             label = "LEFT_CLICK_REPEAT";
         };
+
+        PW: PW {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(L) &kp E &kp LS(C) &kp H &kp O &kp P &kp I &kp N &kp DLLR &kp N8 &kp N4 &kp N2 &kp N1 &kp N3>;
+            label = "PW";
+        };
     };
 
     behaviors {
@@ -149,7 +156,7 @@
 &trans  &trans        &trans        &trans     &trans          &trans                    &trans    &trans     &trans     &trans     &trans  &trans
 &trans  &trans        &trans        &trans     &trans          &trans                    &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans  &trans
 &trans  &kp LEFT_ALT  &kp LEFT_GUI  &kp LCTRL  &kp LEFT_SHIFT  &trans                    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans  &trans
-&trans  &trans        &trans        &trans     &trans          &trans  &trans    &to 3   &trans    &trans     &trans     &trans     &trans  &trans
+&trans  &trans        &trans        &trans     &trans          &trans  &trans    &to 3   &trans    &trans     &trans     &trans     &trans  &PW
                                     &trans     &trans          &trans  &trans    &trans  &trans    &trans     &to 0
             >;
         };
