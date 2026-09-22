@@ -153,11 +153,11 @@
         Movement {
             display-name = "Movement";
             bindings = <
-&trans  &trans        &trans        &trans     &trans          &trans                    &trans    &trans     &trans     &trans     &trans  &trans
-&trans  &trans        &trans        &trans     &trans          &trans                    &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans  &trans
-&trans  &kp LEFT_ALT  &kp LEFT_GUI  &kp LCTRL  &kp LEFT_SHIFT  &trans                    &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans  &trans
-&trans  &trans        &trans        &trans     &trans          &trans  &trans    &to 3   &trans    &trans     &trans     &trans     &trans  &PW
-                                    &trans     &trans          &trans  &trans    &trans  &trans    &trans     &to 0
+&trans  &trans        &trans        &trans     &trans          &trans                    &trans    &trans             &trans      &trans     &trans  &trans
+&trans  &trans        &trans        &trans     &trans          &trans                    &kp HOME  &kp PG_DN          &kp PG_UP   &kp END    &trans  &trans
+&trans  &kp LEFT_ALT  &kp LEFT_GUI  &kp LCTRL  &kp LEFT_SHIFT  &trans                    &kp LEFT  &kp DOWN           &kp UP      &kp RIGHT  &trans  &trans
+&trans  &trans        &trans        &trans     &trans          &trans  &trans    &to 3   &trans    &kp K_APPLICATION  &kp INSERT  &trans     &trans  &PW
+                                    &trans     &trans          &trans  &trans    &trans  &trans    &trans             &to 0
             >;
         };
 
